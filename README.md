@@ -1,1 +1,1 @@
-# GitHubActions_JavaCucumber
+# JavaCucumberGithubActions
