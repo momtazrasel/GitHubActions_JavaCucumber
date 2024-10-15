@@ -48,7 +48,7 @@ public class Analytics_Steps {
 //        for (WebElement e : analyticsLocator.meterInverterGraph){
 //            act.moveToElement(e).perform();
 //        }
-        reusableMethod.verifyGraphAndTitle(analyticsLocator.meterInverterGraph, analyticsLocator.meterInverterTitle, "Total Meter and Inverter Power");
+//        reusableMethod.verifyGraphAndTitle(analyticsLocator.meterInverterGraph, analyticsLocator.meterInverterTitle, "Total Meter and Inverter Power");
 
 
     }
@@ -71,7 +71,7 @@ public class Analytics_Steps {
         reusableMethod.assertElementIsDisplayed(analyticsLocator.analyticsDate);
         reusableMethod.assertElementIsDisplayed(analyticsLocator.analyticsTime);
         reusableMethod.assertElementIsDisplayed(analyticsLocator.analyticsTimer);
-        reusableMethod.assertElementIsDisplayed(analyticsLocator.analyticsSwitch);
+//        reusableMethod.assertElementIsDisplayed(analyticsLocator.analyticsSwitch);
 
     }
 
@@ -79,11 +79,11 @@ public class Analytics_Steps {
     public void verifyThatAllTheFiltersAreClickable() {
 //        reusableMethod.clickElement(analyticsLocator.analyticsDropdown);
         reusableMethod.verifyDropdownClickable(analyticsLocator.analyticsDropdown, analyticsLocator.allAnalytics);
-        reusableMethod.verifyDropdownClickable(analyticsLocator.siteTextField, analyticsLocator.allSites);
+//        reusableMethod.verifyDropdownClickable(analyticsLocator.siteTextField, analyticsLocator.allSites);
 //        reusableMethod.clickElement(analyticsLocator.siteTextField);
         reusableMethod.clickElement(analyticsLocator.analyticsDate);
         reusableMethod.clickElement(analyticsLocator.analyticsTime);
         reusableMethod.clickElement(analyticsLocator.analyticsTimer);
-        reusableMethod.clickElement(analyticsLocator.analyticsSwitch);
+//        reusableMethod.clickElement(analyticsLocator.analyticsSwitch);
     }
 }

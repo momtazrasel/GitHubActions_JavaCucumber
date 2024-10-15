@@ -1,4 +1,6 @@
 base\PageObjectManager.class
+base\TestData.class
 ReusableMethods\ExcelDataReader$1.class
+locators\Analytics_Objects.class
 locators\LoginObjectPage.class
 ReusableMethods\ExcelDataReader.class

@@ -1,4 +1,5 @@
 stepDefinitions\Hooks.class
 stepDefinitions\Login\LoginSteps.class
+stepDefinitions\Analytics\Analytics_Steps.class
 testRunners\TestRunner.class
 utils\DriverSetup.class
