@@ -23,3 +23,9 @@ Feature: Test Site Analytics functionality
     And Select site from the dropdown
     Then Verify that the Power analytics data is displayed
 
+  @Demo
+  Scenario: Verify that user able to login
+    When User enter valid username and password in login form
+    And Clicks on Log in button
+    Then Verify that the home page is displayed
+
