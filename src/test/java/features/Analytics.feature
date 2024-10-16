@@ -27,6 +27,11 @@ Feature: Test Site Analytics functionality
     Then Verify that all the filters are clickable
 
   @Demo
+  Scenario: Verify Filter Dropdown Functionality
+    When Navigate to the Analytics
+    Then Verify that all the filters are clickable
+
+  @Demo
   Scenario: Verify Analytics Selection Functionality
     When Navigate to the Analytics
     And Click on the Analytics dropdown
