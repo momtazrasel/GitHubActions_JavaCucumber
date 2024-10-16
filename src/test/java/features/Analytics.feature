@@ -5,12 +5,6 @@ Feature: Test Site Analytics functionality
     And Clicks on Log in button
     Then Verify that the home page is displayed
 
- @Demo
-  Scenario: Verify that user able to login
-    When User enter valid username and password in login form
-    And Clicks on Log in button
-    Then Verify that the home page is displayed
-
   @Demo
   Scenario: Verify Default Filter State
     When Navigate to the Analytics
