@@ -19,6 +19,6 @@ Feature: Test Site Selector functionality
     When Log in using super admin credentials
     And Clicks on Log in button
     When Navigate to the site selector
-#    Then Verify that all super admin based sites are available
+    Then Verify that all super admin based sites are available
 
 
