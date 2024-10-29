@@ -30,7 +30,7 @@ public class SiteSelectorSteps {
     public void navigateToTheSiteSelector() throws InterruptedException {
 //        reusableMethod.performMouseHover(driver, siteSelectorLocator.siteSelectorButton);
         reusableMethod.clickElement(siteSelectorLocator.siteSelectorButton);
-        Thread.sleep(3000);
+        Thread.sleep(4000);
     }
 
     @When("Log in using domain credentials")
