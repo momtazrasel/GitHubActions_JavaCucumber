@@ -28,7 +28,7 @@ public class SiteSelectorSteps {
 
     @When("Navigate to the site selector")
     public void navigateToTheSiteSelector() throws InterruptedException {
-        reusableMethod.performMouseHover(driver, siteSelectorLocator.siteSelectorButton);
+//        reusableMethod.performMouseHover(driver, siteSelectorLocator.siteSelectorButton);
         reusableMethod.clickElement(siteSelectorLocator.siteSelectorButton);
         Thread.sleep(3000);
     }
